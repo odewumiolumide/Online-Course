@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth; 
+}
+
+:root{
+    --h2-font:2.6rem;
+    --p-font:1.5rem;
+    --text-color: #000000;
+    --bg-color: #e5e5e5;
+    --main-color: #000;
+    --big-font: 4.3rem;
+    --other-color:#868686;
+    transition: .3s ease;
+    transition-delay: .15s ease-in;
+}
+
+body{
+    background-color: rgb(1, 50, 150, 0.1);
+    color: var(--text-color);
+    transition: .7s ease;
+}
+
+
+/*HEADER*/
+
+header{
+    z-index: 999;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 200px;
+    transition: 0.5s ease;
+}
+
+header .brand{
+    color: #fff;
+    font-size: 2.4rem;
+    font-weight: bolder;
+    letter-spacing: 1.5px;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+}
+
+header .navgaration{
+    position: relative;
+}
+
+header .navgaration .navgaration-item a{
+    position: relative;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bolder;
+    text-decoration: none;
+    margin-left: 20px;
+    transition: 0.3s ease;
+}
+
+header .navgaration .navgaration-item a:before{
+    content: '';
+    position: absolute;
+    background: #fff;
+    width: 0;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    transition: .2s ease;
+}
+
+header .navgaration .navgaration-item:hover a:before{
+    width: 100%;
+}
+
+

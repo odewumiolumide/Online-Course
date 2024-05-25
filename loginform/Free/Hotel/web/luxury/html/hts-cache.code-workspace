@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../../../../hts-cache"
+		},
+		{
+			"path": "../../../../www.jqueryscript.net"
+		},
+		{
+			"path": "../../.."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "www.on3-step.com"
+	}
+}

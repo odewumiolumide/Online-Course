@@ -1,0 +1,326 @@
+<!-- booking home -->
+        <div class="bot-home-text onStep" data-animation="fadeInUp" data-time="600">
+         <div class="container">
+
+            <div id="reservation" class="imgbgres" style="background-image:url(img/bg-res.jpg)">
+            
+               <form action="#" id="form1" method="post" name="form1">
+               <div class="row">
+               
+               <div class="col-sm-6 form-group">
+                  <select class="form-control" id="selectroom">
+                   <optgroup label="SELECT ROOM">
+                   <option value="LUXURY SINGLE">Cloud Computing</option>
+                   <option value="LUXURY DOUBLE">LUXURY DOUBLE ROOM</option>
+                   <option value="PREMIUM LUXURY">PREMIUM LUXURY ROOM</option>
+                   <option value="PREMIUM SUITE">PREMIUM SUITE ROOM</option>
+                   </optgroup>
+                  </select>
+                </div>
+                
+                <div class="col-md-3 form-group">
+					
+				</div>
+
+		
+				
+                
+                <div class="col-sm-2 form-group">
+                  <input id="personbook" name="personbook" placeholder="PERSON" type="text">
+                </div>
+                
+                <div class="col-sm-4 form-group">
+                  <input id="namebook" name="namebook" placeholder="NAME" type="text">
+                </div>
+                
+                <div class="col-sm-3 form-group">
+                  <input id="emailbook" name="emailbook" placeholder="EMAIL" type="text">
+                </div>
+                
+                <div class="col-sm-3 form-group">
+                  <input id="phonebook" name="phonebook" placeholder="PHONE" type="text">
+                </div>
+                
+                <div class="col-sm-12 form-group">
+                  <textarea cols="50" id="messagebook" name="message" placeholder="YOUR MESSAGE" rows="2"></textarea>
+                </div>
+
+                  <div class="success-white" id="mail_success">Thank you. Your reservation has been sent.</div>
+                  <div class="error-white" id="mail_failed">Error, email not sent</div>
+                  <button class="btn-content" id="send">BOOK NOW</button>
+               
+               </div>   
+               </form>
+               
+            </div>
+              
+          </div>
+        </div>
+        <!-- booking home end -->
+
+
+        <section class="courses">
+       
+        <div class="container courses_conatiner">
+            <article class="course">
+                <div class="course_image">
+                    <img src="images/svg/fx.jpg" alt="">
+                </div>
+                <div class="course_info">
+                    <h4>Business Adminstration</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, voluptas. Veniam, cum. 
+                        Temporibus officia, rem porro est aperiam illum pariatur dolorum maxime fugiat possimus a!</p>
+                        <a href="Free/Hotel/web/luxury/html/register.php" class="btn btn-primary">Learn More</a>
+                </div>
+            
+            </article>
+
+            <article class="course">
+                <div class="course_image">
+                    <img src="images/svg/class.jpg" alt="">
+                </div>
+                <div class="course_info">
+                    <h4>Digital Marketing</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, voluptas. Veniam, cum. 
+                        Temporibus officia, rem porro est aperiam illum pariatur dolorum maxime fugiat possimus a!</p>
+                        <a href="Free/Hotel/web/luxury/html/register.php" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+
+            <article class="course">
+                <div class="course_image">
+                    <img src="images/svg/lab.jpg" alt="">
+                </div>
+
+                <div class="course_info">
+                    <h4>Robotics Engineering</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, voluptas. Veniam, cum. 
+                        Temporibus officia, rem porro est aperiam illum pariatur dolorum maxime fugiat possimus a!</p>
+                        <a href="Free/Hotel/web/luxury/html/register.php" class="btn btn-primary">Learn More</a>
+                </div>
+                
+            </article>
+
+            
+
+            <article class="course">
+                <div class="course_image">
+                    <img src="images/svg/cop 6.png" alt="">
+                </div>
+                <div class="course_info">
+                    <h4>Product Management</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, voluptas. Veniam, cum. 
+                        Temporibus officia, rem porro est aperiam illum pariatur dolorum maxime fugiat possimus a!</p>
+                        <a href="Free/Hotel/web/luxury/html/register.php" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+
+            <article class="course">
+                <div class="course_image">
+                    <img src="images/svg/photography.png" alt="">
+                </div>
+                <div class="course_info">
+                    <h4>Photography</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, voluptas. Veniam, cum. 
+                        Temporibus officia, rem porro est aperiam illum pariatur dolorum maxime fugiat possimus a!</p>
+                        <a href="Free/Hotel/web/luxury/html/register.php" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+
+            
+            <article class="course">
+                <div class="course_image">
+                    <img src="images/svg/interor.png" alt="">
+                </div>
+                <div class="course_info">
+                    <h4>Interior Designer</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, voluptas. Veniam, cum. 
+                        Temporibus officia, rem porro est aperiam illum pariatur dolorum maxime fugiat possimus a!</p>
+                        <a href="Free/Hotel/web/luxury/html/register.php" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+
+            <article class="course">
+                <div class="course_image">
+                    <img src="images/svg/real.png" alt="">
+                </div>
+                <div class="course_info">
+                    <h4>Real Estate</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, voluptas. Veniam, cum. 
+                        Temporibus officia, rem porro est aperiam illum pariatur dolorum maxime fugiat possimus a!</p>
+                        <a href="Free/Hotel/web/luxury/html/register.php" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+
+            <article class="course">
+                <div class="course_image">
+                    <img src="images/svg/engineering.png" alt="">
+                </div>
+                <div class="course_info">
+                    <h4>Engineering</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, voluptas. Veniam, cum. 
+                        Temporibus officia, rem porro est aperiam illum pariatur dolorum maxime fugiat possimus a!</p>
+                        <a href="Free/Hotel/web/luxury/html/register.php" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+
+            <article class="course">
+                <div class="course_image">
+                    <img src="images/svg/food.png" alt="">
+                </div>
+                <div class="course_info">
+                    <h4>Food & Nut</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, voluptas. Veniam, cum. 
+                        Temporibus officia, rem porro est aperiam illum pariatur dolorum maxime fugiat possimus a!</p>
+                        <a href="Free/Hotel/web/luxury/html/register.php" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+
+            <article class="course">
+                <div class="course_image">
+                    <img src="images/svg/bit.png" alt="">
+                </div>
+                <div class="course_info">
+                    <h4>BITCOIN Trading</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, voluptas. Veniam, cum. 
+                        Temporibus officia, rem porro est aperiam illum pariatur dolorum maxime fugiat possimus a!</p>
+                        <a href="Free/Hotel/web/luxury/html/register.php" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+
+            <article class="course">
+                <div class="course_image">
+                    <img src="images/svg/network.png" alt="">
+                </div>
+                <div class="course_info">
+                    <h4>Networking</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, voluptas. Veniam, cum. 
+                        Temporibus officia, rem porro est aperiam illum pariatur dolorum maxime fugiat possimus a!</p>
+                        <a href="Free/Hotel/web/luxury/html/register.php" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+
+            <article class="course">
+                <div class="course_image">
+                    <img src="images/svg/web.png" alt="">
+                </div>
+                <div class="course_info">
+                    <h4>Web Development</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, voluptas. Veniam, cum. 
+                        Temporibus officia, rem porro est aperiam illum pariatur dolorum maxime fugiat possimus a!</p>
+                        <a href="Free/Hotel/web/luxury/html/register.php" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+
+            <article class="course">
+                <div class="course_image">
+                    <img src="images/svg/stock.png" alt="">
+                </div>
+                <div class="course_info">
+                    <h4>Shares & Stocks</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, voluptas. Veniam, cum. 
+                        Temporibus officia, rem porro est aperiam illum pariatur dolorum maxime fugiat possimus a!</p>
+                        <a href="Free/Hotel/web/luxury/html/register.php" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+
+            <article class="course">
+                <div class="course_image">
+                    <img src="images/svg/class.jpg" alt="">
+                </div>
+                <div class="course_info">
+                    <h4>Artifical Intelligence</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, voluptas. Veniam, cum. 
+                        Temporibus officia, rem porro est aperiam illum pariatur dolorum maxime fugiat possimus a!</p>
+                        <a href="Free/Hotel/web/luxury/html/register.php" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+
+            <article class="course">
+                <div class="course_image">
+                    <img src="images/svg/class.jpg" alt="">
+                </div>
+                <div class="course_info">
+                    <h4>Data Analytics</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, voluptas. Veniam, cum. 
+                        Temporibus officia, rem porro est aperiam illum pariatur dolorum maxime fugiat possimus a!</p>
+                        <a href="Free/Hotel/web/luxury/html/register.php" class="btn btn-primary">Learn More</a>
+                </div>
+            </article> 
+        </div>
+    </section>
+
+
+
+    <div class="container">
+
+    <form id="form1" name="form1" method="post" action="">
+
+    <?php echo $message ?></span></blink></td>
+
+        
+
+            
+
+                
+
+               
+                    
+                
+                <tr>
+                      <td>Name</td>
+                      <td><span id="sprytextfield2">
+                      <input name="name" type="name"  id="name" placeholder="John Doe" maxlength="40"  size="45" />
+                      <span class="textfieldRequiredMsg"></span></span></td>
+                    </tr>
+                
+
+                
+
+               
+                <tr>
+                    <td>Email</td>
+                    <td><input name="email" type="email" id="email" placeholder="example@.gmai.com" size="45" /></td>
+                  </tr>
+                
+
+
+                  
+
+                
+                <tr>
+                    <td>Address</td>
+                    <td><input name="address" type="address" id="address" placeholder="No 234 New York City" size="45" /></td>
+                  </tr>
+                
+
+              
+
+                
+
+               
+
+               
+
+                
+
+                
+
+                
+
+
+            </div>
+        </div>
+
+       
+
+                  <td><span id="sprytextfield5"><span class="textfieldRequiredMsg"></span>
+                  <input name="Submit" button="payment.php"  value="proceed to checkout" id="Submit" type="submit" class="submit-btn" >
+                    </td>
+                  </tr>
+
+
+                  
+       
+    </form>
+</div>

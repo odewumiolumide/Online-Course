@@ -1,0 +1,138 @@
+ 
+   <i class="uil uil-list-ul"></i>
+    <i class="uil uil-multiply"></i>
+    <i class="uil uil-plus"></i>
+    <i class="uil uil-minus"></i>
+    
+    <i class="uil uil-laptop-cloud"></i>
+    <i class="uil uil-music"></i>
+    <i class="uil uil-adobe-alt"></i>
+
+
+    <?php 
+
+
+mysql_connect("localhost","root","") or die (mysql_error());
+
+mysql_select_db("portal");
+if(isset($_GET['delete']))
+	{
+		$sql = "DELETE FROM index.php WHERE id=".$_GET['delete'].";";
+		mysql_query($sql) or die(mysql_error());
+	}
+?>
+<?php
+$query = "";
+$message = "";
+
+	if(isset($_POST['Submit']))
+	 {
+	if(!($_POST['name']))
+		$message = "field is required";
+		if(!($_POST['email']))
+		$message = "field is required";
+        if(!($_POST['password']))
+		$message = "field is required";
+	
+	else {
+		$query=" INSERT INTO portal (name, email, password ) VALUES('"
+		    .$_POST['name']."','"
+		    .$_POST['email']."','"
+            .$_POST['password']."'
+		);";
+		mysql_query($query) or die("Error in Registration<hr>".mysql_error());
+		$message="Checkout Successfully";
+		header("Refresh: 0; URL=register.php");	
+		}}
+		?>
+
+if(database.name){
+                alert('regsiter sucessful');
+            } else{
+                alert(data);
+            }
+
+
+
+
+
+			require 'config.php';
+if(!empty($_SESSION["id"])){
+  header("Location: index.php");
+}
+if( isset($_POST["submit"])){
+    $usernameemail = $_POST["usernameemail"];
+    $password = $_POST["password"];
+    $result = mysqli_query($conn, "SELECT * FROM tb_user WHERE username = '$usernameemail' OR email = '$usernameemail'");
+    $row = mysqli_fetch_assoc($result);
+    if(mysqli_num_rows($result) > 1){
+        if($password == $row ["password"]){
+            $_SESSION["login"] = true;
+            $_SESSION["id"] = $row["id"];
+            header("Location: index.php");
+    }
+    else{
+            echo
+            "<script> alert('Wrong Password'); </script>";
+        }
+    }    
+        else {
+            echo
+            "<script> alert('User Not Registered'); </script>";
+        }
+
+        
+    }
+
+
+
+    <form  class="" action="" method="post" autocomplete="off">
+    <div class="form_name">
+        <label for="usernameemail">Username or Email : </label>
+        <input type="text" name="usernameemail" id="usernameemail" required value=""><br>
+        <label for="password">Password</label>
+       
+    </div>
+    
+    </form>
+    <br>
+
+
+    <form class="" action="" method="post" autocomplete="off">
+        <label for="name">Name :</label>
+        <input type="text" name="name" id = "name" required value=""> <br>
+
+        <label for="name">Username :</label>
+        <input type="text" name="username" id = "username" required value=""> <br>
+
+        <label for="email">Email :</label>
+        <input type="email" name="email" id = "email" required value=""> <br>
+
+        <label for="password">Password :</label>
+        <input type="password" name="password" id = "password" required value=""> <br>
+
+        <label for="confirmpassword">Corfirm Password :</label>
+        <input type="password" name="confirmpassword" id = "confirmpassword" required value=""> <br>
+        <button type="submit" name="submit">Register</button>
+    </form>
+    <br>
+    <a href="login.php">Login</a>
+
+
+    <nav>
+        <div class="container nav_container">
+            
+        <h4>Welcome <?php echo $row["name"]; ?></h4>
+        
+            <ul class="nav_menu">
+                <li><a href="home.php">Home</a></li>
+                <li><a href="course-2.php">Courses</a></li>
+                <li><a href="contact-2.php">Contact</a></li>
+                <li><a href="logout.php">Logout</a></li>
+                
+            </ul>
+            <button id="close-menu-btn"><i class="uil uil-multiply"></i></i></button>
+            <button id="open-menu-btn"><i class="uil uil-list-ul"></i></button>
+
+        </div>
+    </nav>
